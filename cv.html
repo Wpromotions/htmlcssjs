@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viliam Sedliak CV</title>
+    <style>
+        body {
+            font-family: Lucida Grande,Lucida Sans Unicode,Lucida Sans,Geneva,Verdana,sans-serif; 
+            line-height: 1.8;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #333333;
+            color:white;
+        }
+        h1, h2, h3 {
+            margin: 10px 0;
+            color: black;
+        }
+        img {
+            max-width: 150px;
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto;
+        }
+        section {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 50px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+        }
+
+        section h2 {
+            text-decoration: underline;
+            animation: bounce 1s infinite;
+        }
+        .kontaktinfo {
+            margin-bottom: 20px;
+        }
+        .kontaktinfo p {
+            margin: 5px 0;
+        }
+        .headermojemeno {
+            color:orange;
+        }
+        .nazovpozicie:hover {
+            font-size: 25px;
+            cursor:pointer;
+            animation: backwards;
+            color: #089db1
+            transition: font-size 0.3s ease;
+        }
+        .button-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .button {
+            background-color: #333333;
+            color: #ffffff;
+            font-size: 20px;
+            padding: 15px 30px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: transform 0.2s ease;
+        }
+
+        .button:hover {
+            transform: scale(1.1);
+            font-size: 30px; }
+
+    </style>
+ <script>
+    // Function to show the popup
+    function showPopup() {
+        document.getElementById('popup').style.display = 'block';
+    }
+
+    // Function to close the popup
+    function closePopup() {
+        document.getElementById('popup').style.display = 'none';
+    }
+</script>
+
+</head>
+<body>
+    <header>
+        <img src="img/ja.png" alt="Viliam S.">
+        <h1 class="headermojemeno">Viliam Sedliak</h1>
+        <p class="nazovpozicie"><strong>Technical Support Specialist</strong></p>
+    </header>
+
+    <section>
+        <h2 class="bounce-h2">Kontaktné informácie</h2>
+        <div class="kontaktinfo">
+            <p>Email: viliam.sedliak@gmail.com</p>
+            <p>Phone: +420 792 435 395</p>
+            <p>URL: <a href="https://www.wpromotions.eu" target="_blank">www.wpromotions.eu</a></p>
+        </div>
+
+        <h2 class="bounce-h2">O mne</h2>
+        <p>
+            Som optimista, pre ktorého nie je nič nevyriešiteľné. Ku každému problému/úlohe sa staviam so zodpovednosťou a spoľahlivosťou, pri tom však nezabúdam na kreativitu a ''thinking out of the box''. 
+        </p>
+
+        <h2>Vzdelanie</h2>
+        <p>
+            <strong>Bilingual Gymnasium Tisovec</strong> - Highschool
+            <br>
+            Koniec štúdia: 2014
+        </p>
+        <h2>Pracovné skúsenosti</h2>
+        <p>
+            <strong>Support Specialist</strong> - Webnode.com
+            <br>
+            od 2016 - 2023
+        </p>
+        <p>
+            <ul>
+                <li>Work with CRM (Freshdesk) emails and online chat (main task), customer care phone line (medium frequency)</li>
+                    <li>Prioritization</li>
+                    <li>Providing support in SK/EN to our users to find a solution and answer their queries regarding websites</li>
+                    <li>Maintain a positive interaction with customers. Offering proactive approach.</li>
+                    <li>Helping users with technical issues with domains such as DNS settings</li>
+                    <li>Helping users with HTML, CSS, JS problems such as changing colors of buttons, help with implementing widgets via code</li>
+                    <li>Escalating issues to TECH/DEV department</li>
+                    <li>Abuse (complaints) department responsibilities</li>
+                    <li>Reporting</li>
+                    <li>Outside of the box thinking</li>
+                </ul>
+            </ul>
+        </p>
+        <h2>Skills</h2>
+        <p>
+            HTML, CSS, JS
+        </p>
+
+        <h2>Referencie</h2>
+        <p>
+            Na vyžiadanie.
+        </p>
+        <div class="button-container">
+            <button class="button">Viliam Sedliak</button>
+        </br>
+        <br>
+    </section>
+</body>
+</html>
